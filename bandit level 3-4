@@ -1,0 +1,13 @@
+#BANDIT LEVEL 3 TO 4
+#OBJECTIVE
+         To find the  password for the next level is stored in a hidden file in the inhere directory
+#STEPS
+      'ls'
+      inhere
+      'cd' inhere
+      'ls' -a
+      . .. ...Hiding-From-You
+      'cat' ...Hiding-From-you
+      First I used ls command to get a file inhere.Then I used cd command to change the current working directory to specific working directory like hiding the file.
+      I used ls -a command that hide file that start with a.Then I used cat command to read the file.
+#PASSWORD : xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq
