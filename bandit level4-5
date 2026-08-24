@@ -1,0 +1,13 @@
+#BANDIT LEVEL 4 TO 5
+#OBJECTIVE
+         To find password for the next level is stored in the only human-readable file in the inhere directory.
+#STEPS
+      'ls'
+      inhere
+      'cd' inhere
+      'ls'
+      file ./*
+      cat ./-file07
+      First I used ls command to get a file inhere.Then I used cd command to move into inhere folder.Then I used ls to see list of files which saved in inhere folder.
+      Then I used file./* to read which type of data it stored in every single file.Then the file07 which stored ASCII text(which is human readable). At last I used cat command to read the file07.
+#PASSWORD: 6C7h9GD8M6ai5nr7wo1RonrzFjj9yIrG          
