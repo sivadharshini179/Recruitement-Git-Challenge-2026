@@ -1,0 +1,12 @@
+#BANDIT LEVEL 5 TO 6
+#OBJECTIVE
+          To find the password for the next level is stored in a file somewhere under the inhere directory
+#STEPS
+      'ls'
+      inhere
+      'find inhere -type f -size 1033c'
+      inhere/maybehere07/.file2
+      'cat' inhere/maybehereo7/.file2
+      First I used ls command to get a inhere file.Then I used find command to look all subdirectories for a file of exactly 1033 bytes to find the size.
+      Then it prints the exact path of the directory.At last I used cat command to read the directory to get a password.
+#PASSWORD : pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
